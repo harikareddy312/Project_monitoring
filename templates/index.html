@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="/static/css/style.css">
+    <title>Login Page</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Choose Role</h2>
+        <div class="options">
+            <a href="{{ url_for('login_admin') }}" class="btn">Admin</a>
+            <a href="{{ url_for('login_user') }}" class="btn">User</a>
+        </div>
+    </div>
+</body>
+</html>
